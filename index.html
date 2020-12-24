@@ -1,30 +1,31 @@
 <!DOCTYPE html><html>
   <head><meta charset="utf-8">
+    <title>api.opendata.go.jp</title>
   </head>
   <body>
-    <script type="module">
-      const list = [
-        {
-          path: "aizuwakamatsu-shi",
-          apis: [
-            "aizu-nonbee",
-            "sos-notices",
-            "subsidies",
-            "subsidy-details",
-          ]
-        },
-      ];
-      window.onload = async () => {
-        const base = "http://localhost:3002/";
-        for (const d of list) {
-          for (const api of d.apis) {
-            const url = base + "/" + d.path + "/" + api;
-            const json = await (await fetch(url)).json();
-            console.log(json);
-            console.log(json.length);
-          }
-        }
-      };
-    </script>
-  </body>
+
+<h1>api.opendata.go.jp</h1>
+
+<hr>
+応用例<br>
+<a href=aizunonbee.html>あいづ呑んべぇ文化支援プロジェクト</a><br>
+<hr>
+データ一覧<br>
+
+<style>
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid gray;
+}
+</style>
+<script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+<csv-viewer src="opendata.csv" name="Open Data API Portal (2020-12-24)"></csv-viewer>
+
+<hr>
+Data: <a href=https://portal.opendata.go.jp/docs/aizuwakamatsu-shi-product/1/routes/aizu-nonbee/get>Aizuwakamatsu-shi COVID-19 APIs | Open Data API Portal</a> → <a href=opendata.csv>CSV</a><br>
+App: <a href=https://fukuno.jig.jp/3073>政府提供 Open Data API を使ってみた感想と課題 - 福野泰介の一日一創</a> (<a href=https://github.com/code4sabae/opendatagojp/>src on GitHub</a>)<br>
+
+</body>
 </html>

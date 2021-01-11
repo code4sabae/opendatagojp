@@ -1,0 +1,43 @@
+product,path,description,data_source
+project-info,/apis,API一覧を取得します。,https://portal.opendata.go.jp/files/apis.csv
+tokyo-to,/call-center-cases,コールセンター相談件数を取得します。,https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_call_center.csv
+tokyo-to,/advice-center-cases,受診相談窓口相談件数を取得します,https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_combined_telephone_advice_center.csv
+aizuwakamatsu-shi,/subsidies,「あいづ呑んべぇ文化支援プロジェクト」は、新型コロナウイルス感染症に伴う飲食店の営業自粛などにより、お客様が減少した夜の街なかの活気を取り戻すことなどを目的として、令和2年6月30日（火）から約2か月間に渡り、会津若松市で開催するイベントです。「会津酒場スタンプラリー」「呑んだらタクシー割引チケット」「会津清酒で乾杯！キャンペーン」のお得な3つの事業を行います。,https://data.data4citizen.jp/dataset/528c86d0-4a2c-40ad-b211-b7df5e554e8c/resource/b82ed83c-df0a-4cc2-bc57-2f701350ac32/download/covid19hojo.csv
+aizuwakamatsu-shi,/subsidy-details,会津若松商工会議所が公開している、「新型コロナウイルス感染症対策 特別セール・新サービスＳＯＳ掲示板」のデータです。,https://data.data4citizen.jp/dataset/ce210c05-4d87-434b-bb88-7ac95240180a/resource/f37623a0-73c9-4a06-9d91-d0ead05ebf56/download/covid19syosai.csv
+aizuwakamatsu-shi,/sos-notices,新型コロナウイルス補助金データを取得します。,https://data.data4citizen.jp/dataset/80e2d878-77f0-439c-aaa0-1d86d7849473/resource/581d4653-6ca6-43cd-bb67-6bac784357b2/download/20200729sos.csv
+aizuwakamatsu-shi,/aizu-nonbee,新型コロナウイルス補助金詳細データを取得します。,https://data.data4citizen.jp/dataset/4ba64d18-5163-46e9-a50f-64b13faf3e2f/resource/f53b555a-47a1-463b-a643-62fd78c6d374/download/0706.csv
+fukui-ken,/patients,陽性患者属性を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_patients.csv
+fukui-ken,/test-cases,検査実施件数を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_test_count.csv
+fukui-ken,/hospitalization-cases,入退院確認数を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_hospitalization.csv
+fukui-ken,/call-center-cases,コールセンター相談件数を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_call_center.csv
+mie-ken,/patients,患者情報を取得します。,https://www.pref.mie.lg.jp/common/content/000896797.csv
+mie-ken,/test-cases,検査実施件数を取得します。,https://www.pref.mie.lg.jp/common/content/000896967.csv
+mie-ken,/quarantine-center-cases,帰国者・接触者相談センターへの相談件数を取得します。,https://www.pref.mie.lg.jp/common/content/000896971.csv
+gunma-ken,/patients,陽性患者属性を取得します。,http://stopcovid19.pref.gunma.jp/csv/01kanja.csv
+gunma-ken,/advice-cases,相談件数を取得します。,http://stopcovid19.pref.gunma.jp/csv/03soudan.csv
+kanagawa-ken,/patients,陽性患者数及び陽性患者の属性データを取得します。,https://www.pref.kanagawa.jp/osirase/1369/data/csv/patient.csv
+sapporo-shi,/patients,札幌市内の新型コロナウイルス（COVID-19）陽性患者発生状況 - 陽性患者の属性を取得します。,https://ckan.pf-sapporo.jp/dataset/c89f65e7-45a8-4ab2-b94d-494ae192c70f/resource/44d92c21-f11b-4ee5-833e-9f9ec13eafef/download/patients.csv
+sapporo-shi,/patients-summary,札幌市内の新型コロナウイルス（COVID-19）陽性患者発生状況 - 陽性患者数を取得します。,https://ckan.pf-sapporo.jp/dataset/c89f65e7-45a8-4ab2-b94d-494ae192c70f/resource/b83606f6-3aa2-4e0c-8a1a-509dd36be2ae/download/patientssummary.csv
+sapporo-shi,/patients-subtotal,札幌市内の新型コロナウイルス（COVID-19）陽性患者発生状況 - 陽性患者数、現在患者数、死亡数、陰性確認済み数を取得します。,https://ckan.pf-sapporo.jp/dataset/c89f65e7-45a8-4ab2-b94d-494ae192c70f/resource/7dc6b374-ac73-4df4-b899-ea6c8cac3e32/download/covid19datasapporo.csv
+sapporo-shi,/advice-cases,札幌市新型コロナウイルス一般電話相談窓口の相談件数を取得します。,https://ckan.pf-sapporo.jp/dataset/f6338cc2-dd6b-43b6-98a3-cd80b05b6a36/resource/e9e6f062-cafd-4aea-992f-039e2e26f4ac/download/contacts.csv
+sapporo-shi,/quarantine-center-cases,救急安心センターさっぽろ（帰国者・接触者電話相談センター）の相談件数を取得します。,https://ckan.pf-sapporo.jp/dataset/f6338cc2-dd6b-43b6-98a3-cd80b05b6a36/resource/a89ba566-93d1-416a-a269-e0ba48a06636/download/querents.csv
+sapporo-shi,/event-schedules,新型コロナウイルス感染予防のための札幌市主催・共催等イベントの開催見込みデータを取得します。,https://ckan.pf-sapporo.jp/dataset/ba7d4c0d-49ef-47b6-b7c2-db86b4a85aa5/resource/2424e2e1-bf8a-4fd6-b736-d15f0e81418c/download/event20200805.csv
+sapporo-shi,/closed-facilities,新型コロナウイルス感染予防のための市有施設休館等情報を取得します。,https://ckan.pf-sapporo.jp/dataset/3e9cf2cd-6313-44ef-b80c-3a45e4167347/resource/b4a39807-da64-4c53-b3ef-7de1e6dd2d11/download/closedfacilitiescovid19.csv
+sapporo-shi,/subsidies,新型コロナウイルス対応支援資金等の認定状況を取得します。,https://ckan.pf-sapporo.jp/dataset/3d326961-e6b6-4e23-a4f2-80f53a1a34f2/resource/ecdc0a6b-07e8-423b-8a4d-132690fa42c4/download/covid19keieinintei.csv
+sapporo-shi,/management-consulting-cases,新型コロナウイルス肺炎に対する緊急経営相談窓口相談件数を取得します。,https://ckan.pf-sapporo.jp/dataset/371cdab9-b7a0-4f65-a3f9-0ce3ca5a53f4/resource/167a625e-1eec-44c1-ae39-9f6dfddf2648/download/covid19keieisoudan.csv
+kobe-shi,/test-cases,神戸市内で実施された新型コロナウイルス感染症の検査数を取得します。,https://www.city.kobe.lg.jp/documents/32576/kensa.csv
+kobe-shi,/patients,新型コロナウイルス感染症患者の属性等を取得します。,https://www.city.kobe.lg.jp/documents/32576/kansensyazokusei.csv
+kobe-shi,/pedestrian-flows,三宮エリアの人流データ解析に使用している人流データです。三宮エリアの赤外線センサにより取得した人流データを神戸市で集計・欠損補正を行った参考値です。データ提供元：関西電力株式会社、株式会社オプテージ,https://www.city.kobe.lg.jp/documents/33478/sannomiya_hokosha_data.csv
+kobe-shi,/subway-passengers,市営地下鉄三宮駅及び西神中央駅の乗客数を取得します。,https://www.city.kobe.lg.jp/documents/33478/subwaydata.csv
+kobe-shi,/sanroku-bypass-traffic,山麓バイパスの通行車両数を取得します。,https://www.city.kobe.lg.jp/documents/33478/sanrokudata.csv
+yokohama-shi,/patients,新型コロナウイルス感染症の陽性患者の発生状況を取得します。,https://www.city.yokohama.lg.jp/city-info/koho-kocho/koho/topics/corona-data.files/141003_yokohama_covid19_patients.csv
+yokohama-shi,/call-center-cases,横浜市新型コロナウイルス感染症コールセンターの相談件数（週）を取得します。,https://www.city.yokohama.lg.jp/city-info/koho-kocho/koho/topics/corona-data.files/141003_yokohama_covid19_call_center.csv
+yokohama-shi,/quarantine-center-cases,新型コロナウイルス感染症帰国者・接触者相談センターの相談件数（週）を取得します。,https://www.city.yokohama.lg.jp/city-info/koho-kocho/koho/topics/corona-data.files/141003_yokohama_covid19_soudan_center.csv
+fukuoka-shi,/patients,福岡市内で確認された新型コロナウイルス感染症陽性患者発表情報のデータを取得します。,https://ckan.open-governmentdata.org/dataset/6c9fc569-b523-4c56-828d-2ab3047df5a3/resource/c97a0ef7-8be9-4902-bf49-3fe5daf6d34c/download/401307_city_fukuoka_covid19_patients.csv
+fukuoka-shi,/test-cases,福岡市内で実施した新型コロナウイルス感染症に係る検査（PCR検査及び抗原検査）の日別の実施数を取得します。,https://ckan.open-governmentdata.org/dataset/0295eac4-6af0-4918-9356-ed4128dce637/resource/79dbbd76-d57b-4bb5-90c9-329670de674e/download/401307_city_fukuoka_covid19_exam.csv
+fukuoka-shi,/patients-summary,福岡市内で確認された新型コロナウイルス感染症陽性患者のまとめデータを取得します。,https://ckan.open-governmentdata.org/dataset/7d30dcca-3e1a-46da-ab7b-3e1d2b439226/resource/924c5111-7480-4dc8-8920-d37b9debd71f/download/401307_city_fukuoka_covid19_totalpatients.csv
+fukuoka-shi,/contact-dial-cases,新型コロナウイルス感染症に関して、福岡市の新型コロナウイルス感染症相談ダイヤルで受け付けた日別の相談件数を取得します。,https://ckan.open-governmentdata.org/dataset/a8caad72-ad7f-4e99-83c0-cf8faf62a0be/resource/dde69cf3-441b-4f24-b9c1-0ab7ae1f46f6/download/401307_city_fukuoka_covid19_hotline.csv
+fukuoka-shi,/quarantine-center-cases,新型コロナウイルス感染症に関して、福岡市の帰国者・接触者相談センターで受け付けた日別の相談件数を取得します。,https://ckan.open-governmentdata.org/dataset/ccaee2fd-a1a1-420b-b72e-71f49659ad47/resource/314abe74-a4db-4a5a-9b7e-d32a22af510d/download/401307_city_fukuoka_covid19_kikokusyasessyokusya.csv
+osaka-fu,/patients-summary,検査件数、陽性者数、退院者数、死亡人数などを取得します。,https://covid19-osaka.info/data/summary.csv
+osaka-fu,/resident-consulting-cases,府民向け相談窓口への相談件数を取得します。,https://covid19-osaka.info/data/contacts1.csv
+osaka-fu,/advice-center-cases,新型コロナ受診相談センターへの相談件数を取得します。,https://covid19-osaka.info/data/contacts2.csv

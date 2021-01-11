@@ -1,26 +1,26 @@
 import { CSV } from "https://code4sabae.github.io/js/CSV.js";
-import { sleep } from "https://code4sabae.github.io/js/sleep.js"
+import { sleep } from "https://code4sabae.github.io/js/sleep.js";
+import { SJIS } from "https://code4sabae.github.io/js/SJIS.js";
+import { fetchCurl } from "https://code4sabae.github.io/js/fetchCurl.js";
 
-const apikey = (await Deno.readTextFile("apikey.txt")).trim();
+const url = "https://portal.opendata.go.jp/files/apis.csv";
 
-const fetchByAPI = async (provider, path) => {
-  console.log(provider, path);
-  const url = "https://api.opendata.go.jp/" + provider + "/" + path + "?apikey=" + apikey;
-  console.log(url);
-  const body = await (await fetch(url)).json();
-  return body;
-};
+const scsv = await (await fetch(url)).text();
+const list = CSV.toJSON(CSV.decode(scsv));
 
-const list = CSV.toJSON(CSV.decode(await Deno.readTextFile("opendata-list.csv")));
 for (const dset of list) {
-  const json = await fetchByAPI(dset.provider, dset.path);
-  await Deno.mkdir("data/" + dset.provider, { recursive: true });
-  const fn = "data/" + dset.provider + "/" + dset.path;
-  await Deno.writeTextFile(fn + ".json", JSON.stringify(json));
-  try {
-    await Deno.writeTextFile(fn + ".csv", CSV.encode(CSV.fromJSON(json)));
-  } catch (e) {
-    console.log(e);
-  }
-  await sleep(5000);
+  console.log(dset);
+  //const bin = new Uint8Array(await (await fetch(dset.data_source)).arrayBuffer());
+  const bin = await fetchCurl(dset.data_source);
+  console.log(bin.length);
+  const sjis = SJIS.isSJIS(bin);
+  const s =  sjis ? SJIS.decode(bin) : new TextDecoder().decode(bin);
+  // const s = SJIS.decodeAuto(bin);
+  await Deno.mkdir("csv/" + dset.product, { recursive: true });
+  const path = dset.product + dset.path + ".csv";
+  await Deno.writeTextFile("csv/" + path, s);
+  dset.charset = sjis ? "SJIS" : "UTF-8";
+  dset.cached = "https://code4sabae.github.io/opendatagojp/csv/" + path;
+  await sleep(500);
 }
+await Deno.writeTextFile("csv/index.csv", CSV.encode(CSV.fromJSON(list)));

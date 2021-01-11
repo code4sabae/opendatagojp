@@ -7,7 +7,7 @@ const app = createApp();
 app.get(/\/*/, async (req) => {
   const q = req.url.lastIndexOf("?");
   console.log(req.path);
-  const url = "https://api.opendata.go.jp/" + req.url + (q < 0 ? "?" : "&") + "apikey=" + apikey;
+  const url = "https://api.opendata.go.jp" + req.url + (q < 0 ? "?" : "&") + "apikey=" + apikey;
   console.log(url);
   const body = await (await fetch(url)).text();
   const headers = new Headers({

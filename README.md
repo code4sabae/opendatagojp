@@ -1,5 +1,5 @@
 # opendatagojp
-Open Data API Portal をシンプルなCSVファイルとして再配布
+Open Data API Portal をシンプルなCSVファイルとして再配布  
 https://portal.opendata.go.jp/
 
 ## data

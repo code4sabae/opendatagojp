@@ -27,7 +27,6 @@ sapporo-shi,/subsidies,新型コロナウイルス対応支援資金等の認定
 sapporo-shi,/management-consulting-cases,新型コロナウイルス肺炎に対する緊急経営相談窓口相談件数を取得します。,https://ckan.pf-sapporo.jp/dataset/371cdab9-b7a0-4f65-a3f9-0ce3ca5a53f4/resource/167a625e-1eec-44c1-ae39-9f6dfddf2648/download/covid19keieisoudan.csv
 kobe-shi,/test-cases,神戸市内で実施された新型コロナウイルス感染症の検査数を取得します。,https://www.city.kobe.lg.jp/documents/32576/kensa.csv
 kobe-shi,/patients,新型コロナウイルス感染症患者の属性等を取得します。,https://www.city.kobe.lg.jp/documents/32576/kansensyazokusei.csv
-kobe-shi,/pedestrian-flows,三宮エリアの人流データ解析に使用している人流データです。三宮エリアの赤外線センサにより取得した人流データを神戸市で集計・欠損補正を行った参考値です。データ提供元：関西電力株式会社、株式会社オプテージ,https://www.city.kobe.lg.jp/documents/33478/sannomiya_hokosha_data.csv
 kobe-shi,/subway-passengers,市営地下鉄三宮駅及び西神中央駅の乗客数を取得します。,https://www.city.kobe.lg.jp/documents/33478/subwaydata.csv
 kobe-shi,/sanroku-bypass-traffic,山麓バイパスの通行車両数を取得します。,https://www.city.kobe.lg.jp/documents/33478/sanrokudata.csv
 yokohama-shi,/patients,新型コロナウイルス感染症の陽性患者の発生状況を取得します。,https://www.city.yokohama.lg.jp/city-info/koho-kocho/koho/topics/corona-data.files/141003_yokohama_covid19_patients.csv
@@ -41,3 +40,10 @@ fukuoka-shi,/quarantine-center-cases,新型コロナウイルス感染症に関�
 osaka-fu,/patients-summary,検査件数、陽性者数、退院者数、死亡人数などを取得します。,https://covid19-osaka.info/data/summary.csv
 osaka-fu,/resident-consulting-cases,府民向け相談窓口への相談件数を取得します。,https://covid19-osaka.info/data/contacts1.csv
 osaka-fu,/advice-center-cases,新型コロナ受診相談センターへの相談件数を取得します。,https://covid19-osaka.info/data/contacts2.csv
+mhlw,/positive-cases,陽性者数を取得します。,https://www.mhlw.go.jp/content/pcr_positive_daily.csv
+mhlw,/test-cases,PCR検査実施人数を取得します。,https://www.mhlw.go.jp/content/pcr_tested_daily.csv
+mhlw,/hospitalization-cases,入院治療等を要する者の数を取得します。,https://www.mhlw.go.jp/content/cases_total.csv
+mhlw,/recovery-cases,退院又は療養解除となった者の数を取得します。,https://www.mhlw.go.jp/content/recovery_total.csv
+mhlw,/death-cases,死亡者数を取得します。,https://www.mhlw.go.jp/content/death_total.csv
+mhlw,/test-details,PCR検査の実施件数を取得します。,https://www.mhlw.go.jp/content/pcr_case_daily.csv
+mhlw,/severe-cases,重症者数を取得します。,https://www.mhlw.go.jp/content/severe_daily.csv

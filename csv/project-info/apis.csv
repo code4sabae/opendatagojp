@@ -47,3 +47,4 @@ mhlw,/recovery-cases,退院又は療養解除となった者の数を取得し�
 mhlw,/death-cases,死亡者数を取得します。,https://www.mhlw.go.jp/content/death_total.csv
 mhlw,/test-details,PCR検査の実施件数を取得します。,https://www.mhlw.go.jp/content/pcr_case_daily.csv
 mhlw,/severe-cases,重症者数を取得します。,https://www.mhlw.go.jp/content/severe_daily.csv
+nagoya-shi,/patients-summary,検査件数、陽性者数、退院者数、死亡人数などを取得します。,https://www.city.nagoya.jp/kenkofukushi/cmsfiles/contents/0000126/126920/nagoya_city_covid19(20210125).csv

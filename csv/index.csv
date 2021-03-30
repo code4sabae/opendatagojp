@@ -42,7 +42,7 @@ osaka-fu,/resident-consulting-cases,府民向け相談窓口への相談件数�
 osaka-fu,/advice-center-cases,新型コロナ受診相談センターへの相談件数を取得します。,https://covid19-osaka.info/data/contacts2.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/osaka-fu/advice-center-cases.csv
 mhlw,/positive-cases,陽性者数を取得します。,https://www.mhlw.go.jp/content/pcr_positive_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/positive-cases.csv
 mhlw,/test-cases,PCR検査実施人数を取得します。,https://www.mhlw.go.jp/content/pcr_tested_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/test-cases.csv
-mhlw,/hospitalization-cases,入院治療等を要する者の数を取得します。,https://www.mhlw.go.jp/content/cases_total.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mhlw/hospitalization-cases.csv
+mhlw,/hospitalization-cases,入院治療等を要する者の数を取得します。,https://www.mhlw.go.jp/content/cases_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/hospitalization-cases.csv
 mhlw,/recovery-cases,退院又は療養解除となった者の数を取得します。,https://www.mhlw.go.jp/content/recovery_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/recovery-cases.csv
 mhlw,/death-cases,死亡者数を取得します。,https://www.mhlw.go.jp/content/death_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/death-cases.csv
 mhlw,/test-details,PCR検査の実施件数を取得します。,https://www.mhlw.go.jp/content/pcr_case_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/test-details.csv

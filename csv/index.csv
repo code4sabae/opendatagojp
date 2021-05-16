@@ -45,7 +45,7 @@ mhlw,/test-cases,PCR検査実施人数を取得します。,https://www.mhlw.go.
 mhlw,/hospitalization-cases,入院治療等を要する者の数を取得します。,https://www.mhlw.go.jp/content/cases_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/hospitalization-cases.csv
 mhlw,/recovery-cases,退院又は療養解除となった者の数を取得します。,https://www.mhlw.go.jp/content/recovery_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/recovery-cases.csv
 mhlw,/death-cases,死亡者数を取得します。,https://www.mhlw.go.jp/content/death_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/death-cases.csv
-mhlw,/test-details,PCR検査の実施件数を取得します。,https://www.mhlw.go.jp/content/pcr_case_daily.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mhlw/test-details.csv
+mhlw,/test-details,PCR検査の実施件数を取得します。,https://www.mhlw.go.jp/content/pcr_case_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/test-details.csv
 mhlw,/severe-cases,重症者数を取得します。,https://www.mhlw.go.jp/content/severe_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/severe-cases.csv
 nagoya-shi,/patients,検査件数、陽性者数、退院者数、死亡人数などを取得します。,https://www.city.nagoya.jp/kenkofukushi/cmsfiles/contents/0000126/126920/nagoya_city_covid19(20210125).csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/nagoya-shi/patients.csv
 kitakyushu-shi,/patients-summary,北九州市内で確認された新型コロナウイルス感染症の、陽性患者の日別の入退院状況及び入院者等の症状別人数のデータです。,https://ckan.open-governmentdata.org/dataset/876ed829-9dcd-46a7-98d4-c3722886e945/resource/6e30e40f-c415-4733-be10-c549c66065b9/download/401005_kitakyushu_covid19_patients_symptom.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/kitakyushu-shi/patients-summary.csv

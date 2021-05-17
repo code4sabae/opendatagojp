@@ -40,7 +40,7 @@ fukuoka-shi,/quarantine-center-cases,新型コロナウイルス感染症に関�
 osaka-fu,/patients-summary,検査件数、陽性者数、退院者数、死亡人数などを取得します。,https://covid19-osaka.info/data/summary.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/osaka-fu/patients-summary.csv
 osaka-fu,/resident-consulting-cases,府民向け相談窓口への相談件数を取得します。,https://covid19-osaka.info/data/contacts1.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/osaka-fu/resident-consulting-cases.csv
 osaka-fu,/advice-center-cases,新型コロナ受診相談センターへの相談件数を取得します。,https://covid19-osaka.info/data/contacts2.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/osaka-fu/advice-center-cases.csv
-mhlw,/positive-cases,陽性者数を取得します。,https://www.mhlw.go.jp/content/pcr_positive_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/positive-cases.csv
+mhlw,/positive-cases,陽性者数を取得します。,https://www.mhlw.go.jp/content/pcr_positive_daily.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mhlw/positive-cases.csv
 mhlw,/test-cases,PCR検査実施人数を取得します。,https://www.mhlw.go.jp/content/pcr_tested_daily.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/test-cases.csv
 mhlw,/hospitalization-cases,入院治療等を要する者の数を取得します。,https://www.mhlw.go.jp/content/cases_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/hospitalization-cases.csv
 mhlw,/recovery-cases,退院又は療養解除となった者の数を取得します。,https://www.mhlw.go.jp/content/recovery_total.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mhlw/recovery-cases.csv

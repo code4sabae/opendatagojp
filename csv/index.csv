@@ -11,7 +11,7 @@ fukui-ken,/test-cases,検査実施件数を取得します。,https://www.pref.f
 fukui-ken,/hospitalization-cases,入退院確認数を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_hospitalization.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/fukui-ken/hospitalization-cases.csv
 fukui-ken,/call-center-cases,コールセンター相談件数を取得します。,https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19_d/fil/covid19_call_center.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/fukui-ken/call-center-cases.csv
 mie-ken,/patients,患者情報を取得します。,https://www.pref.mie.lg.jp/common/content/000896797.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mie-ken/patients.csv
-mie-ken,/test-cases,検査実施件数を取得します。,https://www.pref.mie.lg.jp/common/content/000896967.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/mie-ken/test-cases.csv
+mie-ken,/test-cases,検査実施件数を取得します。,https://www.pref.mie.lg.jp/common/content/000896967.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mie-ken/test-cases.csv
 mie-ken,/quarantine-center-cases,帰国者・接触者相談センターへの相談件数を取得します。,https://www.pref.mie.lg.jp/common/content/000896971.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/mie-ken/quarantine-center-cases.csv
 gunma-ken,/patients,陽性患者属性を取得します。,http://stopcovid19.pref.gunma.jp/csv/01kanja.csv,UTF-8,https://code4sabae.github.io/opendatagojp/csv/gunma-ken/patients.csv
 gunma-ken,/advice-cases,相談件数を取得します。,http://stopcovid19.pref.gunma.jp/csv/03soudan.csv,SJIS,https://code4sabae.github.io/opendatagojp/csv/gunma-ken/advice-cases.csv
